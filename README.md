@@ -1,0 +1,51 @@
+# DNA Matrix Builder Project
+
+This project was exported from DNA Matrix Builder.
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+The production build will be in the `dist` folder.
+
+## 🌐 Deploy to Vercel
+
+### Option 1: Using Vercel CLI
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel --prod
+```
+
+### Option 2: Using GitHub
+
+1. Push to GitHub:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin YOUR_GITHUB_REPO_URL
+git push -u origin main
+```
+
+2. Go to [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your GitHub repository
+5. Click "Deploy"
